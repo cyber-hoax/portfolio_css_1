@@ -30,7 +30,7 @@ html{
 .slider-container{
 
        height: 95.5vh;
-   background-image: url('/main.jpg');
+   background-image: url('/banner-image2.jpg');
    background-size: cover;
    background-position: center;
   
@@ -57,9 +57,9 @@ a{
     font-size: 1.8rem;
     letter-spacing: .3rem;
     position:absolute;
-    left: 50%;
-    top: 30%;
-    transform: translate(-50% , -50%);
+    left: 60%;
+    top: 20%;
+   
 }
 
 .main-container{
@@ -113,12 +113,13 @@ padding: 1.5em;
 
 }
   .col-image{
-      width: 94.7vw;
+      width: 93.2vw;
+
       height: 30vh;
   }
 
   .col{
-      width: 94.7vw;
+      width: 93.2vw;
       height: 30vh;
   }
 
@@ -126,21 +127,103 @@ padding: 1.5em;
       padding-left: 5%;
       padding-right: 5%;
      height: 30vh;
-    width: 92vw;
+    width: 93.2vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.slider-container{
+
     
-background-color: burlywood;
+
+.slider-container{
+
+    height: 70vh;
+   background-image: url('/baner-image.jpg');
+   background-size: cover;
+   background-position: center;
+  
+
+   
+}
 
   
 
    
 }
+
+
+
+h5{
+      font-family: 'Vollkorn', serif;  
+      font-size: 1rem;
+      font-weight: 400;
+      color: #333;
+      font-style: italic;
+      margin-top: 0.3em;
+    
+
 }
 
-/* font-family: 'Vollkorn', serif; */
+h2{
+    font-size: 2.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+      line-height: 2.5rem;
+      letter-spacing: -3px;
+      color: #333;
+}
+
+p{  
+    margin-top: 2em;
+    padding-left: 8em;
+     padding-right: 8em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+        color: #5c5c5c;
+    display: block;
+    line-height: 1.6rem;
+    letter-spacing: -0.5px;
+
+
+}
+
+a.button{  
+    border: 2px solid black;
+    color: #333;
+    text-decoration: none;
+    font-size: 0.8rem;
+    letter-spacing: -1px;
+    height: 3.6rem;
+    width: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 0 0 0;
+   
+
+}
+
+.numbers{
+   
+    display: flex;
+    justify-content:space-between;
+    width: 50vw;
+    height: 100px;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    align-items: center;
+    
+
+   
+    
+}
+
+.num-container{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
